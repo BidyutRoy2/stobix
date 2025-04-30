@@ -25,7 +25,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`---------------------------------------------`);
-    console.log(`      Stobix Auto Bot - HiddenGem   `);
+    console.log(`      Stobix Bot - HiddenGem - t.me/hiddengemnews  `);
     console.log(`---------------------------------------------${colors.reset}`);
     console.log();
   }
