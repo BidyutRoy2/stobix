@@ -1,0 +1,37 @@
+{
+    "name": "stobix-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated bot for Stobix platform tasks and mining",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/airdropinsiders/Stobix-Auto-Bot.git"
+    },
+    "keywords": [
+      "stobix",
+      "airdrop",
+      "automation",
+      "bot",
+      "mining",
+      "crypto"
+    ],
+    "author": "Airdrop Insiders",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/Stobix-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/Stobix-Auto-Bot#readme",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1",
+      "ethers": "^6.8.1",
+      "https-proxy-agent": "^7.0.2"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
