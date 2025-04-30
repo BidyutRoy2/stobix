@@ -30,8 +30,8 @@ Stobix Auto Bot is an automated tool designed to interact with the Stobix platfo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/airdropinsiders/Stobix-Auto-Bot.git
-cd Stobix-Auto-Bot
+git clone https://github.com/BidyutRoy2/stobix.git
+cd stobix
 ```
 
 2. Install dependencies:
