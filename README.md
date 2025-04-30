@@ -40,11 +40,10 @@ cd stobix
 npm install
 ```
 
-3. Edit .env File & Add Your EVM Wallet Private Key
+3. Edit .env File & Add Your EVM Wallet Private Key (CTRL+X+Y+ENTER) To Save
 ```
 nano .env
 ```
-
 ``
 PRIVATE_KEY_1=32302cbe95c10 Your EVM Wallet Private Key
 PRIVATE_KEY_2=your_second_private_key_here
