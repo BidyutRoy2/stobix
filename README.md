@@ -45,6 +45,7 @@ npm install
 nano .env
 ```
 
+### How to Setup Multi Wallet
 ```
 PRIVATE_KEY_1=32302cbe95c10 Your EVM Wallet Private Key
 PRIVATE_KEY_2=your_second_private_key_here
