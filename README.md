@@ -40,32 +40,27 @@ cd stobix
 npm install
 ```
 
-3. Create `.env` file with your private keys:
-
-```bash
-cp .env.example .env
+3. Edit .env File & Add Your EVM Wallet Private Key
+```
+nano .env
 ```
 
-4. Edit the `.env` file and add your private keys:
-
-```
-PRIVATE_KEY_1=your_first_private_key_here
+``
+PRIVATE_KEY_1=32302cbe95c10 Your EVM Wallet Private Key
 PRIVATE_KEY_2=your_second_private_key_here
+``
+
+Start the bot with:
+
+```
+npm Start
 ```
 
-5. (Optional) Configure proxies by creating a `proxies.txt` file with one proxy per line:
+(Optional) Configure proxies by creating a `proxies.txt` file with one proxy per line:
 
 ```
 http://username:password@proxy1.example.com:8080
 username:password@proxy2.example.com:8080
-```
-
-## Usage
-
-Start the bot with:
-
-```bash
-node index.js
 ```
 
 The bot will:
